@@ -1,0 +1,4 @@
+.space
+__pycache__/*
+env
+.env
