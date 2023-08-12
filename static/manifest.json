@@ -1,0 +1,15 @@
+{
+    "name": "my portfolio",
+    "short_name": "portfolio",
+    "icons": [
+      {
+        "src": "/static/assets/apple-icon-180x180.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }

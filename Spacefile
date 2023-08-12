@@ -1,9 +1,14 @@
 # Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
 v: 0
 micros:
-  - name: univers
+  - name: my-portfolio
     src: ./
     engine: python3.9
     primary: true
     public_routes:
       - "/*"
+    presets:
+      env:
+        - name: EMAIL_ADDRESS
+        - name: EMAIL_PASSWORD
+        - name: TO_EMAIL
